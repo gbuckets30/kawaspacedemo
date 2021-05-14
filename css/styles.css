@@ -59,6 +59,10 @@ html {
   }
 }
 
+.line-4 {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .card-grid-line-1 {
   font-style: normal;
   font-weight: normal;
