@@ -1,0 +1,193 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: #E5E5E5;
+}
+@media screen and (max-width: 1300px) {
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+.your-challenge {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 145%;
+  color: #000000;
+}
+
+.link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #000000;
+}
+
+.line-1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 100%;
+  letter-spacing: -1.85px;
+  color: #E16259;
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+}
+@media screen and (max-width: 650px) {
+  .line-1 {
+    font-size: 2.5rem;
+  }
+}
+
+.line-2, .line-3, .line-4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 145%;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 650px) {
+  .line-2, .line-3, .line-4 {
+    font-size: 0.75rem;
+  }
+}
+
+.card-grid-line-1 {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: capitalize;
+}
+
+.card-grid-line-2 {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 135%;
+  font-size: 1.35rem;
+  color: #000000;
+  overflow-wrap: break-word;
+}
+
+.card-grid-line-3 {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+  font-size: 0.95rem;
+  color: #E16259;
+  overflow-wrap: anywhere;
+}
+
+.focused {
+  color: white;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.focused {
+  background: #A259FF;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+  max-width: 80vw;
+  padding: 5rem 4rem;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin: 0 14rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .card-user {
+    padding: 3rem 3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .card-user {
+    margin: 0 7rem;
+  }
+}
+.card-user .card-user-details {
+  cursor: pointer;
+}
+.card-user .card-user-details .line-1 {
+  overflow-wrap: break-word;
+}
+.card-user .card-user-details .line-2 {
+  margin-top: 10px;
+  overflow-wrap: anywhere;
+}
+.card-user .card-user-circular-img {
+  width: 8rem;
+  height: 8rem;
+  margin-right: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .card-user .card-user-circular-img {
+    margin-right: 2rem;
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: 6rem;
+  padding: 0 7rem;
+}
+@media screen and (max-width: 650px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin-top: 4rem;
+  }
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 7.5rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.links .link {
+  padding: 0 0.75rem;
+  order: 0;
+  flex-grow: 0;
+}
+.links .link:first-of-type {
+  padding: 0;
+  border-bottom: 2px solid #E16259;
+}
+.links .shame {
+  padding-left: 1.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
